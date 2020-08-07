@@ -15,6 +15,7 @@ public class TestLogin_Edge {
 		driver.findElement(By.name("username")).sendKeys("admin");
 		driver.findElement(By.name("password")).sendKeys("admin");
 		driver.findElement(By.name("login")).click();
+		driver.close();
 	}
 
 }
